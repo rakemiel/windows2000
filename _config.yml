@@ -9,7 +9,7 @@ name: aanset
 description: I am is what I am now.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/aanset/aanset.github.io/images/pihole.png
+avatar: images/aanset-logo.png
 
 #
 # Flags below are optional
