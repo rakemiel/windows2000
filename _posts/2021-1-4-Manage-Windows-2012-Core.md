@@ -81,7 +81,7 @@ PS C:\Users\Administrator> Enable-NetFirewallRule -DisplayGroup "File and Printe
 	- Install it via remote desktop
 
 Now, add your server by their hostname.
-![Add Server](../images/adserver.png)
+![Add Server](../images/addserver.png)
 
 If you having problem connecting, it might be credential problem like mine. 
 
