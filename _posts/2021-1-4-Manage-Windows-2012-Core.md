@@ -35,7 +35,7 @@ Now we can manage our server using remote desktop
 ![Remote Desktop](../images/remotedesktop.png)
 
 <Aside> 
-Firewall is something we don't talk here. My environmenthere is local LAN with no access to the internet
+Firewall is something we don't talk here. My environment is local LAN with no access to the internet
 </Aside>
 
 ### 4. Install Windows Admin on your Windows 10 Laptop
