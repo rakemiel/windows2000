@@ -91,9 +91,15 @@ c. Select your server, then choose "manage as" and fill it with your username / 
 
 
 ### Now, manage your server:
+
+## Server List
+
 ![Windows Admin Center](../images/windowsadmin.png)
+
+## Dashboard
+
 ![Windows Admin Center](../images/windowsadmin2.png)
 
 That's it, you may now manage your server anywhere using your browser.
 
-xiguantheng@kotakoo.io
+[Mail Me](mailto:aanset@kotakoo.io)
