@@ -5,6 +5,7 @@ permalink: /about/
 ---
 
 I am a traditional IT Engineers trying to migrate myself to "modern" IT :)
+![About Me](../images/me.png)
 
 ### More Information
 
