@@ -92,8 +92,14 @@ PS C:\Users\Administrator> Enable-NetFirewallRule -DisplayGroup "File and Printe
 c. Select your server, then choose "manage as" and fill it with your username / password
 ![Manage as](../images/manageas.png)
 
+
+
 ### Now, manage your server:
 ![Windows Admin Center](../images/windowsadmin.png)
 ![Windows Admin Center](../images/windowsadmin2.png)
+
+That's it, you may now manage your server anywhere using your browser.
+
+xiguantheng@kotakoo.io
 
 
