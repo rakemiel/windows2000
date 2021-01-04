@@ -102,4 +102,4 @@ c. Select your server, then choose "manage as" and fill it with your username / 
 
 That's it, you may now manage your server anywhere using your browser.
 
-[Mail Me](mailto:aanset@kotakoo.io)
+[You may Contact Me](../about.md)
