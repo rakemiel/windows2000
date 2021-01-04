@@ -103,3 +103,5 @@ Select your server, then choose "manage as" and fill it with your username / pas
 That's it, you may now manage your server anywhere using your browser.
 
 If you have any problems following this article, you may [contact me](../about)
+
+This article also appeared in [Medium](https://aanset.medium.com/manage-windows-server-2012-core-with-windows-admin-center-a4cb6179269a)
