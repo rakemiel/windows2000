@@ -16,6 +16,8 @@ c. Enable Remote Desktop with any client version
 d. Change IP to static
 e. Change date / time
 
+![sconfig](../images/sconfig.png)
+
 ### 3. Remote Desktop your new server :
 
 Before we can remote desktop to our server, we need to change some parameters.
@@ -30,7 +32,7 @@ PS C:\Users\Administrator> Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
 
 Now we can manage our server using remote desktop
 
-
+![Remote Desktop](../images/remotedesktop.png)
 
 <Aside> 
 Firewall is something we don't talk here. My environmenthere is local LAN with no access to the internet
