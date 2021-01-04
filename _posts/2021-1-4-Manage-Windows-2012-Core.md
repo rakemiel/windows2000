@@ -15,7 +15,6 @@ I am using Windows 2012 Core Server as an example
 | 2. [Windows Admin Center](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-admin-center) |
 | 3. [Windows 2012 Environment Preparation](https://docs.microsoft.com/en-us/windows-server/manage/windows-admin-center/deploy/prepare-environment#prepare-windows-server-2012-and-2012-r2) |
 | 4. [Install and Configure WMF 5.1](https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/wmf/setup/install-configure?view=powershell-7.1) |
-|---|
 
 ## Install Windows Server 2012 Core as usual
 
