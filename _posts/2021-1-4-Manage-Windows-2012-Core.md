@@ -3,34 +3,38 @@ layout: post
 title : Manage Windows 2012 Core with Windows Admin
 ---
 
+## Installation
+
 ### 1. Install Windows 2012 Core as usual
 
-### 2. Change your environment :
+### 2. Change your environment
 
-Using sconfig, change some parameter here :
-
-- a. Change computer name
-- b. Enable Remote Management
-- c. Enable Remote Desktop with any client version
-- d. Change IP to static
-- e. Change date / time
+Using sconfig, change some parameter here:
+a. Change computer name
+b. Enable Remote Management
+c. Enable Remote Desktop with any client version
+d. Change IP to static
+e. Change date / time
 
 ### 3. Remote Desktop your new server :
+
 Before we can remote desktop to our server, we need to change some parameters.
 	
 Enable Firewall for remote desktop
 
-- (https://docs.microsoft.com/en-us/archive/blogs/bruce_adamczak/windows-2012-core-survival-guide-remote-desktop)
+[Some prerequisite / guidance](https://docs.microsoft.com/en-us/archive/blogs/bruce_adamczak/windows-2012-core-survival-guide-remote-desktop)
 
-- Powershell Command
-
-```
-Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
+```sh
+PS C:\Users\Administrator> Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
 ```
 
 Now we can manage our server using remote desktop
 
-* Firewall is something we don't talk here. My environmenthere is local LAN with no access to the internet
+
+
+<Aside> 
+Firewall is something we don't talk here. My environmenthere is local LAN with no access to the internet
+</Aside>
 
 ### 4. Install Windows Admin on your Windows 10 Laptop
 - **Download it here**:
