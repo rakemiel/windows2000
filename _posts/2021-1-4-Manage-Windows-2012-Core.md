@@ -9,12 +9,12 @@ This is my step by step on how to install [Windows Admin Center](https://www.mic
 
 I am using Windows 2012 Core Server as an example
 
-| **Before you start** |
-|---|
-| 1. [Windows 2012 Core Survival Guide](https://docs.microsoft.com/en-us/archive/blogs/bruce_adamczak/windows-2012-core-survival-guide-remote-desktop) |
-| 2. [Windows Admin Center](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-admin-center) |
-| 3. [Windows 2012 Environment Preparation](https://docs.microsoft.com/en-us/windows-server/manage/windows-admin-center/deploy/prepare-environment#prepare-windows-server-2012-and-2012-r2) |
-| 4. [Install and Configure WMF 5.1](https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/wmf/setup/install-configure?view=powershell-7.1) |
+| **Before you start** |  |
+|---|---|
+| 1. | [Windows 2012 Core Survival Guide](https://docs.microsoft.com/en-us/archive/blogs/bruce_adamczak/windows-2012-core-survival-guide-remote-desktop) |
+| 2. | [Windows Admin Center](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-admin-center) |
+| 3. | [Windows 2012 Environment Preparation](https://docs.microsoft.com/en-us/windows-server/manage/windows-admin-center/deploy/prepare-environment#prepare-windows-server-2012-and-2012-r2) |
+| 4. | [Install and Configure WMF 5.1](https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/wmf/setup/install-configure?view=powershell-7.1) |
 
 ## Install Windows Server 2012 Core as usual
 
@@ -44,11 +44,7 @@ Now we can manage our server using remote desktop
 ![Remote Desktop](../images/remotedesktop.png)
 
 
-
-<aside> 
-Firewall is something we don't talk here. My environment is local LAN with no access to the internet
-</aside>
-
+> Firewall is something we don't talk here. My environment is local LAN with no access to the internet
 
 ## Install Windows Admin Center to your Windows 10 Laptop:
 - **Download it here**: (https://www.microsoft.com/en-us/evalcenter/evaluate-windows-admin-center)
@@ -89,7 +85,8 @@ c. Select your server, then choose "manage as" and fill it with your username / 
 
 
 
-### Now, manage your server:
+# Now, manage your server:
+---
 
 ## Server List
 
