@@ -80,13 +80,17 @@ PS C:\Users\Administrator> Enable-NetFirewallRule -DisplayGroup "File and Printe
 	- Copy your downloaded file to your server
 	- Install it via remote desktop
 
-c. Select your server, then choose "manage as" and fill it with your username / password
+Now, add your server by their hostname.
+![Add Server](../images/adserver.png)
+
+If you having problem connecting, it might be credential problem like mine. 
+
+Select your server, then choose "manage as" and fill it with your username / password
 ![Manage as](../images/manageas.png)
 
 
 
 # Now, manage your server:
----
 
 ## Server List
 
