@@ -4,11 +4,12 @@ title: About
 permalink: /about/
 ---
 
-About me!
+I am a traditional IT Engineers trying to migrate myself to "modern" IT :)
 
 ### More Information
 
 I am is what I am now.
-### Contact me
 
-[aanset@kotakoo.io](mailto:aanset@kotakoo.io)
+### Want to connect?
+
+Feel free to contact me [here](mailto:aanset@kotakoo.io)
