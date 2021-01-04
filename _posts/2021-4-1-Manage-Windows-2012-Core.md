@@ -3,11 +3,9 @@ layout: post
 title : Manage Windows 2012 Core with Windows Admin
 ---
 
-# Manage Windows 2012 Core with Windows Admin
+##1. Install Windows 2012 Core as usual
 
-1. Install Windows 2012 Core as usual
-
-2. Write down your environment :
+##2. Write down your environment :
 
 	Using sconfig, change some parameter here :
 		a. Change computer name
@@ -16,7 +14,7 @@ title : Manage Windows 2012 Core with Windows Admin
 		d. Change IP to static
 		e. Change date / time
 
-3. Remote Desktop your new server :
+##3. Remote Desktop your new server :
 	Before we can remote desktop to our server, we need to change some parameters.
 	
 	Enable Firewall for remote desktop
@@ -27,7 +25,7 @@ title : Manage Windows 2012 Core with Windows Admin
 	Now we can manage our server using remote desktop
 	* Firewall is something we don't talk here. My environmenthere is local LAN with no access to the internet
 
-4. Install Windows Admin on your Windows 10 Laptop
+##4. Install Windows Admin on your Windows 10 Laptop
 	Download it here :
 		https://www.microsoft.com/en-us/evalcenter/evaluate-windows-admin-center
 	
@@ -37,7 +35,7 @@ title : Manage Windows 2012 Core with Windows Admin
 	If you having problem with TrustedHosts
 		https://docs.microsoft.com/en-us/windows-server/manage/windows-admin-center/support/troubleshooting#configure-trustedhosts
 
-5. Add new server to your Windows Admin
+##5. Add new server to your Windows Admin
 	a. On our laptop, Add new server to our laptop "hosts" file
 		-192.168.0.50 vm-server2012
 
