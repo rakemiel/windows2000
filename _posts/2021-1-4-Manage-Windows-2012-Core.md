@@ -3,7 +3,7 @@ layout: post
 title : Manage Windows Server 2012 Core with Windows Admin Center
 ---
 
-I have some problems when it comes to manage Windows Server Core / without GUI.
+I have problems when it comes to manage Windows Server Core / without GUI.
 
 This is my step by step on how to install [Windows Admin Center](https://www.microsoft.com/en-us/windows-server/windows-admin-center) to manage my servers
 
