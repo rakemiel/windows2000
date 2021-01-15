@@ -5,9 +5,9 @@ title : Manage Windows Server 2012 Core with Windows Admin Center
 
 I have problems when it comes to manage Windows Server Core / without GUI.
 
-This is my step by step on how to install [Windows Admin Center](https://www.microsoft.com/en-us/windows-server/windows-admin-center) to manage my servers
+This is my step by step on how to install [Windows Admin Center](https://www.microsoft.com/en-us/windows-server/windows-admin-center) to manage my servers.
 
-I am using Windows 2012 Core Server as an example
+I am using Windows 2012 Core Server as an example.
 
 | **Before you start** |  |
 |---|---|
@@ -23,35 +23,35 @@ You don't need my help to do this ... :)
 ## Change your server's environment
 
 Using `sconfig`, change some parameter here:
-1. Change computer name
-2. Enable Remote Management
-3. Enable Remote Desktop with any client version
-4. Change IP to static
-5. Change date / time
+1. Change computer name.
+2. Enable Remote Management.
+3. Enable Remote Desktop with any client version.
+4. Change IP to static.
+5. Change date / time.
 
 ![sconfig](../images/sconfig.png)
 
 ## Remote Desktop your new server :
 
-Before we can remote desktop to our server, we need to Enable Firewall for remote desktop:
+Before we can remote desktop to our server, we need to enable Firewall for remote desktop:
 
 ```sh
 PS C:\Users\Administrator> Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
 ```
 
-Now we can manage our server using remote desktop
+Now we can manage our server with remote desktop:
 
 ![Remote Desktop](../images/remotedesktop.png)
 
 
-> Firewall is something we don't talk here. My environment is local LAN with no access to the internet
+> Firewall is something we don't talk here. My environment is local LAN with no access to the internet.
 
 ## Install Windows Admin Center to your Windows 10 Laptop:
-- **Download it here**: (https://www.microsoft.com/en-us/evalcenter/evaluate-windows-admin-center)
+- **Download it here**: ( https://www.microsoft.com/en-us/evalcenter/evaluate-windows-admin-center )
 	
-- **Manage it Here** : (https://docs.microsoft.com/en-us/windows-server/manage/windows-admin-center/deploy/install)
+- **Manage it Here** : ( https://docs.microsoft.com/en-us/windows-server/manage/windows-admin-center/deploy/install )
 	
-- **If you having problem with TrustedHosts** : (https://docs.microsoft.com/en-us/windows-server/manage/windows-admin-center/support/troubleshooting#configure-trustedhosts)
+- **If you having problem with TrustedHosts** : ( https://docs.microsoft.com/en-us/windows-server/manage/windows-admin-center/support/troubleshooting#configure-trustedhosts )
 
 ## Add new server to your Windows Admin
 
@@ -76,9 +76,9 @@ PS C:\Users\Administrator> Enable-NetFirewallRule -DisplayGroup "File and Printe
 ```
 
 - **Install WMF version 5.1 or higher** :
-	- Download here : (https://go.microsoft.com/fwlink/?linkid=839516)
-	- Copy your downloaded file to your server
-	- Install it via remote desktop
+	- Download here : ( https://go.microsoft.com/fwlink/?linkid=839516 )
+	- Copy your downloaded file to your server.
+	- Install it via remote desktop.
 
 Now, add your server by their hostname.
 ![Add Server](../images/addserver.png)
@@ -102,6 +102,6 @@ Select your server, then choose "manage as" and fill it with your username / pas
 
 That's it, you may now manage your server anywhere using your browser.
 
-If you have any problems following this article, you may [contact me](../about)
+If you have any problems following this article, you may [contact me](../about) .
 
-This article also appeared in [Medium](https://aanset.medium.com/manage-windows-server-2012-core-with-windows-admin-center-a4cb6179269a)
+This article also appeared in [Medium](https://aanset.medium.com/manage-windows-server-2012-core-with-windows-admin-center-a4cb6179269a) .
